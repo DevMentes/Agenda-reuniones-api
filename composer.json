@@ -1,0 +1,33 @@
+{
+    "require": {
+        "slim/slim": "3.0",
+        "illuminate/database": "*",
+        "ext-json": "*",
+        "firebase/php-jwt": "^5.0"
+    },
+
+    "authors": [
+        {
+            "name": "Camilo Alaniz",
+            "email": "kmilo93sd@gmail.com"
+        },
+        {
+            "name": "Diego Saldias",
+            "email": "diegosalcon@gmail.com"
+        },
+        {
+            "name": "Francisco Huentequeo",
+            "email": "fran__cis@hotmail.cl"
+        },
+        {
+            "name": "Francisco Briones",
+            "email": "franciscobrionesalvador@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "Babilonia\\": "src/"
+        }
+    }
+
+}
